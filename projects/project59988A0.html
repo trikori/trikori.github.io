@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script src="/main.js" async></script>
+        <title>Adrienne Lee</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="inner">
+                <div class="logo">
+                    <div>
+                        <a href="../index.html"><h1>AdrienneLee</h1></a>
+                    </div>
+                </div>
+                
+                <nav>
+                    <li><span><a href="../index.html">Home</a></span></li>
+                    <li><span><a href="../projects.html">Projects</a></span></li>
+                </nav>
+            </div>
+        </header>
+
+        <div>
+
+            <div class="image-container">
+                <img src="/resources/59988A0/final.png" alt="" class="banner-image">
+            </div>
+
+            <div class="container">
+                <div class="heading">
+                    <h1 class="heading-title">Pomodoro Gundam</h1>
+                    <p class="project-page-description">
+                        This project is inspired by my love of Gunpla, building plastic Gundam models. There are projects out there where there are fully functional creations. I wanted to implement another component that will be generally useful to everyone. The idea was to implement a Pomodoro style timer but with a Gundam theme. This will provide the user passive feedback on when the timer is up by both the lights and the sound of the motors when the arm is “waving”.
+                    </p>
+                    <p class="project-page-description">There are two LEDs, a red one and a green one. When the button is pressed, the green LED indicate that the timer has started counting. When it reaches the end of the count, the red LED, which is encased within the Gundam head, will turn on and the arm waving will be simulated through the servo. 
+                        
+                    </p>
+                </div>
+
+                <div class="navigation">
+                    <div class="button-container">
+                        <a href=#image class="btn btn-style btn-navigate">IMAGES</a>
+                        <a href=#video class="btn btn-style btn-navigate">VIDEO</a>
+                        <a href=#circuit class="btn btn-style btn-navigate">CIRCUIT SCHEMATIC</a>
+                        <a href=#code class="btn btn-style btn-navigate">CODE</a>
+                        <a href=#reference class="btn btn-style btn-navigate">REFERENCE</a>
+                    </div>
+                </div>
+
+                <section id="image" class="section-main project-sections">
+                    <h1 class="wrapper">Images</h1>
+                    <div class="image-gallery">
+                        <img src="/resources/59988A0/overview_beg.jpg" class="image-overlay">
+                        <img src="/resources/59988A0/head1.jpg" class="image-overlay">
+                        <img src="/resources/59988A0/haed2.jpg" class="image-overlay">
+                        <img src="/resources/59988A0/arm.jpg" class="image-overlay">
+                        <img src="/resources/59988A0/servo_attached.jpg" class="image-overlay">
+                        <img src="/resources/59988A0/overview_next.jpg" class="image-overlay">
+                        <img src="/resources/59988A0/final.png" class="image-overlay"> 
+                    </div>
+
+                    <div class="image-popup">
+                        <span>&times;</span>
+                        <img src="" alt="">
+                    </div>
+                </section>
+
+                <section id="video" class="section-main project-sections">
+                    <h1 class="wrapper">Video</h1>
+                    <div class="video-container">
+                        <video controls>
+                            <source src="/resources/59988A0/A0.mp4" type="video/mp4">
+                            Your broswer does not support mp4 videos.
+                        </video>
+                    </div>
+                </section>
+
+                <section id="circuit" class="section-main project-sections">
+                    <h1 class="wrapper">Circuit Schematic</h1>
+                    <div class="image-container">
+                        <img src="/resources/59988A0/A0_schem.png" alt="" class="banner-image"">
+                    </div>
+                </section>
+
+                <section id="code" class="section-main project-sections">
+                    <h1 class="wrapper">Code</h1>
+                    <div class="button-container">
+                        <a href="https://github.com/trikori/PomodoroGundam" class="btn btn-code">CODE</a>
+                    </div>
+                </section>
+
+                <section id="reference" class="section-main project-sections">
+                    <h1 class="wrapper">References</h1>
+                    <div class="link-container">
+                        <a href="https://forum.arduino.cc/t/controlling-servo-with-millis/222445/6" class="link">Controlling Servo with Millis</a>
+                        <a href="https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink" class="link">Arduino Built-In Example - Blink</a>
+                        <a href="https://www.youtube.com/watch?v=ksNbEuhO4fU" class="link">Arduino Tutorials: Control a LED with a Button</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </body>
+</html>
